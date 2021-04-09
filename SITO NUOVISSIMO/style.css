@@ -1,0 +1,235 @@
+body{
+  text-align: center;
+  background-color: black;
+}
+
+
+nav{
+  height: 80px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content:center;
+}
+a{
+  font-size: 25px;
+  color: black;
+}
+.menu{
+  padding-top: 30px;
+ display: flex;
+ justify-content:space-between;
+
+}
+.home{
+ font-weight: bold;
+  padding left: : 100px;
+  padding-right:  100px;
+}
+.About{
+font-weight: bold;
+ padding left: : 100px;
+ padding-right:  100px;
+}
+.skills{
+font-weight: bold;
+ padding left: : 100px;
+ padding-right:  100px;
+}
+.contatti{
+font-weight: bold;
+ padding left: : 100px;
+ padding-right:  100px;
+}
+.first-part{
+  background-image: url('img/sfondone.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+
+
+
+/* stile testi*/
+.title{
+  font-size: 40px;
+  font-family: "Leaugue Spartan", sans-serif;
+  color:  #FFDE59
+}
+.titolo-didascalia{
+  font-size: 40px;
+  font-family: "Leaugue Spartan", sans-serif;
+  color:  #FFDE59
+}
+
+.didascalia{
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+}
+.about-text{
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size: 30px;
+  font-family: "codepro" sans-serif;
+  color: white;
+}
+
+.form{
+  font-size: 20px;
+  font-family: "codepro" sans-serif;
+  color: white;
+}
+
+.myButton {
+ background-color:#FFDE59;
+ border-radius:6px;
+ border:1px solid #000000;
+ display:inline-block;
+ cursor:pointer;
+ color:#000000;
+ font-family:Arial;
+ font-size:16px;
+ font-weight:bold;
+ padding:3px 16px;}
+ .myButton:hover {
+ 	background-color:#f2f2a2;
+ }
+ .myButton:active {
+ 	position:relative;
+ 	top:1px;
+ }
+
+
+/* OTTIMIZZAZIONE*/
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+nav{
+  height: 200px;
+}
+.menu{
+  display: block;
+}
+.profilo{
+  width: 300px;
+
+}
+.titolo-didascalia{
+  font-size: 30px;
+}
+
+  .home{
+
+    padding left: : 0px;
+    padding-right:  0px;
+  }
+  .About{
+
+   padding left: : 0px;
+   padding-right:  0px;
+  }
+  .skills{
+
+   padding left: : 0px;
+   padding-right:  0px;
+  }
+  .contatti{
+
+   padding left: : 0px;
+   padding-right:  0px;
+ }
+ .first-part{
+   height: 400px;
+ }
+ .title{
+ font-size: 30px;
+ }
+ .about-text{
+   padding-left: 1px;
+   padding-right: 1px;
+   font-size: 20px;
+
+ }
+
+
+.foot{
+  height: 100px;
+}
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .nav{
+  height: 100px;
+  text-align: center;
+
+  }
+  .home{
+
+    padding left: : 30px;
+    padding-right:  30px;
+  }
+  .About{
+
+   padding left: : 30px;
+   padding-right:  30px;
+  }
+  .skills{
+
+   padding left: : 30px;
+   padding-right:  30px;
+  }
+  .contatti{
+
+   padding left: : 20px;
+   padding-right:  20px;
+}
+   .profilo{
+     width: 600px;
+     display:block;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     left: 70px;
+   }
+
+
+
+  .areatesto{
+    position:static;
+    display: block;
+  }
+  .about-text{
+
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* Desktop Styles */
+
+  @media only screen and (min-width: 961px) {
+    .profilo{
+      width: 600px;
+      display:block;
+      display: flex;
+      justify-content: center;
+    }
+    .areatesto{
+      position:relative;
+      bottom: 80px;
+      display: block;
+
+    }
+
+}
